@@ -1,8 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #f9faf8;
     margin: 0;
-    background-color: black;
 }
 
 a {
@@ -31,6 +29,7 @@ ul {
 .website-info div {
     font-size: 48px;
     font-weight: 900px;
+    color: #f9faf8;
 }
 .website-info {
     display: flex;
@@ -50,20 +49,147 @@ ul {
     margin-right: auto;
     padding: 10px 30px;
     color: #f9faf8;
- }
+}
 
- .website-info p {
+.website-info p {
     font-size: 24px;
     color: #f9faf8;
- }
+}
 
- .image {
+img {
     height: 300px;
     width: 630px;
-    background-color: aqua;
- }
+    object-fit: cover;
+}
 
- .top-content {
+.top-content {
     padding: 100px 0;
- }
+}
 
+div h1.information {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 0;
+}
+
+div.information {
+    height: 500px;
+    align-content: center;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex: auto;
+    flex-basis: 300px;
+    margin-top: 30px;
+}
+
+.illustrations div p {
+    color: rgb(107, 100, 100);
+}
+
+.illustrations div * {
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+}
+
+.illustrations div div img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.quote {
+    align-items: center;
+    margin: 100px auto;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    flex: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote p {
+    /* align-self: flex-end; */
+}
+
+p.author {
+    font-weight: bold;
+    text-align: right;
+    width: 900px;
+    font-size: 26px;
+}
+
+i {
+    font-size: 36px;
+    font-weight: light;
+    color: #1f2937;
+    display: inline-block;
+    width: 830px;
+    text-align: start;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 1000px;
+}
+.final-section {
+    padding: auto 100px;
+    align-content: center;
+    display: flex;
+    height: 370px;
+}
+
+.call-to-action-banner {
+    background-color:rgba(78, 163, 242);
+    color: white;
+    border-radius: 5px;
+    padding: 30px;
+    margin: auto;
+    width: 50vw;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.call-to-action-banner button {
+    border: 2px solid white;
+    color: white;
+    background-color:rgba(78, 163, 242);
+    padding: 10px 30px;
+    margin: auto 0;
+    margin-right: 70px;
+    margin-left: auto;
+    border-radius: 10px;
+}
+
+.action-description {
+    margin-left: 70px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #1f2937;
+    align-content: center;
+}
+.footer p {
+    color: white;
+    text-align: center;
+}
