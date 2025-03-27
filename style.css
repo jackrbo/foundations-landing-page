@@ -19,10 +19,11 @@ ul {
     justify-content: space-between;
     align-items: center;
     color: #f9faf8;
+    padding: 0px 5vw;
 }
 
 .top {
-    padding: 0px  250px;
+    align-content: center;
     background-color: #1f2937;
 }
 
@@ -35,12 +36,15 @@ ul {
     display: flex;
     flex-direction: column;
     flex: 1;
-    justify-content: space-between;
+    padding-left: 5vw;
 }
 
 .top-content {
     display: flex;
-    gap: 50px;
+}
+
+.top-content img {
+    padding-right: 5vw;
 }
 
 .website-info button {
