@@ -19,10 +19,11 @@ ul {
     justify-content: space-between;
     align-items: center;
     color: #f9faf8;
+    padding: 0px 5vw;
 }
 
 .top {
-    padding: 0px  250px;
+    align-content: center;
     background-color: #1f2937;
 }
 
@@ -35,12 +36,15 @@ ul {
     display: flex;
     flex-direction: column;
     flex: 1;
-    justify-content: space-between;
+    padding-left: 5vw;
 }
 
 .top-content {
     display: flex;
-    gap: 50px;
+}
+
+.top-content img {
+    padding-right: 5vw;
 }
 
 .website-info button {
@@ -72,11 +76,12 @@ div h1.information {
     color: #1f2937;
     font-weight: 900;
     margin: 0;
+    padding:50px 0;
 }
 
 div.information {
-    height: 500px;
     align-content: center;
+    padding-bottom: 50px;
 }
 
 .illustrations {
@@ -123,9 +128,11 @@ div.information {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 5vw;
 }
+
 .quote p {
-    /* align-self: flex-end; */
+    align-self: flex-end;
 }
 
 p.author {
@@ -133,6 +140,7 @@ p.author {
     text-align: right;
     width: 900px;
     font-size: 26px;
+    padding: 0px 100px;
 }
 
 i {
@@ -140,7 +148,7 @@ i {
     font-weight: light;
     color: #1f2937;
     display: inline-block;
-    width: 830px;
+    padding: 0px 200px;
     text-align: start;
 }
 
@@ -162,9 +170,8 @@ i {
     color: white;
     border-radius: 5px;
     padding: 30px;
-    margin: auto;
+    margin: 50px auto;
     width: 50vw;
-    flex-shrink: 1;
     display: flex;
     justify-content: space-around;
 }
@@ -175,13 +182,7 @@ i {
     background-color:rgba(78, 163, 242);
     padding: 10px 30px;
     margin: auto 0;
-    margin-right: 70px;
-    margin-left: auto;
     border-radius: 10px;
-}
-
-.action-description {
-    margin-left: 70px;
 }
 
 .footer {
